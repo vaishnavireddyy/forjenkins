@@ -2,7 +2,7 @@ import fire
 
 
 def hello(name="World"):
-    return "Hello %s!" % name
+    return f"Hello {name}!"
 
 
 if __name__ == "__main__":
